@@ -36,4 +36,15 @@ a{
     position: relative;
     bottom: 200px;        
 }
-
+.contenedor-educacion li{
+    list-style: none;
+}
+.contenedor-educacion{
+    background-color: rgb(183, 176, 176);
+}
+.contenedor-laboral li{
+ list-style: none;
+}
+.tablas{
+    display: flex;
+}
