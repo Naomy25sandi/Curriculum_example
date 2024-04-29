@@ -29,4 +29,9 @@ a{
     display: flex;
     gap: 20px;
 }
+.contenedor-foto .foto{
+    height: 150px;
+    
+    
+}
 
