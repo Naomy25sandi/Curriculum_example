@@ -1,0 +1,32 @@
+
+
+.informacion {
+    cursor: pointer;
+}
+.icono {
+    height: 20px;
+    width: auto;
+    transform: scale(1.2);
+  
+}
+.informacion{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+.contenedor-email{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-celular{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-direccion{
+    display: flex;
+    gap: 20px;
+}
+
