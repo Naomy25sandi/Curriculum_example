@@ -42,7 +42,16 @@ a{
 }
 .contenedor-educacion{
     background-color: rgb(183, 176, 176);
+    height: 330px;
 }
+.contenedor-laboral{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+    top: -310px;
+
+    }
 .contenedor-laboral li{
  list-style: none;
 }
@@ -113,6 +122,23 @@ a{
 .fortalezas{
     cursor: pointer;
    justify-content: right;
-   
 
+
+}
+
+.linea{
+    rotate: 90deg;
+    width: 40px;
+    border: 1px solid;
+}
+
+.ordenar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.lista{
+    margin-left: -40px;
 }
