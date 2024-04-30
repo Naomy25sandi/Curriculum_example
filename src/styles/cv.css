@@ -72,4 +72,47 @@ a{
 .cont-puntos{
     display: flex;
     gap: 6px;
+    
+}
+.img1{
+    height: 20px;
+    width: auto;
+    transform: scale(1.2);
+}
+.img2{
+    height: 20px;
+    width: auto;
+    transform: scale(1.2);
+}
+.img3{
+    height: 20px;
+    width: auto;
+    transform: scale(1.2);
+    
+}
+.img4{
+    height: 20px;
+    width: auto;
+    transform: scale(1.2);
+    
+}
+.cont-img{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;   
+}
+.cont-img{
+    display: flex;
+    gap: 50px;
+}
+.cont-img2{
+    display: flex;
+    gap: 30px;
+}
+.fortalezas{
+    cursor: pointer;
+   justify-content: right;
+   
+
 }
