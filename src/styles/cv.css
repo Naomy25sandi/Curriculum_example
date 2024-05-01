@@ -129,13 +129,12 @@ a{
 .fortalezas{
     cursor: pointer;
    justify-content: right;
+  
 }
  
 .contenedor .contenedor-laboral{
     float: right;
 }
-
-
 .linea{
     rotate: 90deg;
     width: 40px;
@@ -145,10 +144,25 @@ a{
 .ordenar{
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    
+    margin-top: 30px;  
 }
 
 .lista{
     margin-left: -40px;
+}
+#boton1 {
+    background-color: white;
+    border: none;
+}
+#boton2 {
+    background-color: white;
+    border: none;
+}
+#boton3 {
+    background-color: white;
+    border: none;
+}
+#boton4 {
+    background-color: white;
+    border: none;
 }
