@@ -1,22 +1,20 @@
-let boton1 = document.getElementById("boton1").onclick = function () {
-    click1()
-}
-function boton1() {
-    alert("Soy una persona puntual")
-}
+let btnPuntual = document.getElementById("boton1")
+let btnActivo = document.getElementById("boton2")
+let btnTrabajo= document.getElementById("boton3")
+let btnResponsable=document.getElementById("boton4")
 
-let boton2 = document.getElementById("boton2").onclick = function () {
-    click2()
-}
-function boton2() {
-    alert("Soy una persona activa con iniciativa")
-    
-}
 
-let boton3 = document.getElementById(boton3).onclick = function () {
-    click3()
-}
+btnPuntual.addEventListener("click", ()=> {
+       alert("La puntualidad habla mucho de una persona😊")
+})
 
-let boton4 = document.getElementById(boton4).onclick = function () {
-    click4
-}
+btnActivo.addEventListener("click",()=>{
+     alert("Da siempre lo mejor de ti 👌")
+})
+
+btnTrabajo.addEventListener("click",()=>{
+     alert("La union hace la fuerza")
+})
+btnResponsable.addEventListener("click", ()=>{
+    alert("La responsabilidad es el precio a la grandeza")
+})

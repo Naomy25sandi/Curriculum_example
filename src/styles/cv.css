@@ -73,6 +73,7 @@ a{
     width: 10px;
     border-radius: 50%;
     background-color:black;
+
 }
 .puntito2{
     height: 10px;
@@ -131,6 +132,9 @@ a{
    justify-content: right;
   
 }
+.contenedor-final{
+    margin: 20px;
+}
  
 .contenedor .contenedor-laboral{
     float: right;
@@ -153,16 +157,23 @@ a{
 #boton1 {
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 #boton2 {
     background-color: white;
     border: none;
+    cursor: pointer;
+
 }
 #boton3 {
     background-color: white;
     border: none;
+    cursor: pointer;
+
 }
 #boton4 {
     background-color: white;
     border: none;
+    cursor: pointer;
+
 }
